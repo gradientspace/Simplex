@@ -9,4 +9,4 @@
 	url = https://github.com/gradientspace/gsUnityVR
 [submodule "Assets/gsCore"]
 	path = Assets/gsCore
-	url = https://bitbucket.org/gradientspace/gscore
+	url = https://github.com/gradientspace/gsCore
