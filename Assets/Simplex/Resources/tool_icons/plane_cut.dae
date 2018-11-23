@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+<asset>
+  <contributor>
+    <authoring_tool>meshmixer</authoring_tool>
+  </contributor>
+  <unit name="millimeters" meter="0.001"/>
+  <up_axis>Y_UP</up_axis>
+</asset>
+<library_geometries>
+  <geometry id="mesh1-geometry" name="mesh1-geometry">
+    <mesh>
+        <source id="mesh1-geometry-position">
+        <float_array id="mesh1-geometry-position-array" count="105">0.585697 -0.131453 -0.279354 -0.0825332 -0.00508795 -0.00326677 0.19731 0.510185 0.438212 -0.362375 -0.520362 -0.444747 -0.750761 0.121276 0.272818 0.179039 0.396755 0.190884 0.308074 0.315967 -0.176759 -0.476932 0.348493 -0.0287437 0.308074 -0.360964 -0.028006 -0.476932 -0.328438 0.12001 -0.347896 0.267705 -0.396387 0.179039 -0.280175 0.339637 -0.347896 -0.409226 -0.247633 -0.412414 -0.0303664 -0.138188 0.243556 0.0178959 0.0814388 0.308074 0.315967 -0.176759 -0.476932 -0.328438 0.12001 0.308074 -0.360964 -0.028006 0.179039 0.396755 0.190884 -0.0844287 0.33223 -0.102752 -0.347896 0.267705 -0.396387 0.179039 -0.280175 0.339637 -0.347896 -0.409226 -0.247633 -0.0844288 -0.344701 0.0460019 -0.476932 0.348493 -0.0287437 -0.476932 0.348493 -0.0287437 0.179039 -0.280175 0.339637 -0.476932 -0.328438 0.12001 0.308074 -0.360964 -0.028006 -0.148946 0.0341589 0.155447 -0.347896 -0.409226 -0.247633 -0.347896 0.267705 -0.396387 0.179039 0.396755 0.190884 0.308074 0.315967 -0.176759 -0.019911 -0.0466294 -0.212196 </float_array>
+          <technique_common>
+            <accessor source="#mesh1-geometry-position-array" count="35" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh1-geometry-normal">
+        <float_array id="mesh1-geometry-normal-array" count="105">-0.160514 0.691024 -0.704784 -0.160514 0.691024 -0.704784 -0.160514 0.691024 -0.704784 -0.160514 0.691024 -0.704784 -0.160514 0.691024 -0.704784 0.945962 0.0695982 0.31672 0.945962 0.0695982 0.31672 -0.945962 -0.0695982 -0.31672 0.945962 0.0695982 0.31672 -0.945962 -0.0695982 -0.31672 -0.945962 -0.0695982 -0.31672 0.945962 0.0695982 0.31672 -0.945962 -0.0695982 -0.31672 -0.945962 -0.0695982 -0.31672 0.945962 0.0695982 0.31672 7.85755e-08 0.976696 -0.214626 -7.85755e-08 -0.976696 0.214626 -7.85755e-08 -0.976696 0.214626 7.85755e-08 0.976696 -0.214626 7.85755e-08 0.976696 -0.214626 7.85755e-08 0.976696 -0.214626 -7.85755e-08 -0.976696 0.214626 -7.85755e-08 -0.976696 0.214626 -7.85755e-08 -0.976696 0.214626 7.85755e-08 0.976696 -0.214626 -0.324277 0.203028 0.923918 -0.324277 0.203028 0.923918 -0.324277 0.203028 0.923918 0.324277 -0.203028 -0.923918 -0.324277 0.203028 0.923918 0.324277 -0.203028 -0.923918 0.324277 -0.203028 -0.923918 -0.324277 0.203028 0.923918 0.324277 -0.203028 -0.923918 0.324277 -0.203028 -0.923918 </float_array>
+          <technique_common>
+            <accessor source="#mesh1-geometry-normal-array" count="35" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh1-geometry-color">
+        <float_array id="mesh1-geometry-color-array" count="105">0.755917 0.968627 0.968627 0.755917 0.968627 0.968627 0.755917 0.968628 0.968628 0.755917 0.968628 0.968628 0.755917 0.968627 0.968627 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </float_array>
+          <technique_common>
+            <accessor source="#mesh1-geometry-color-array" count="35" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+      <vertices id="mesh1-geometry-vertex">
+        <input semantic="POSITION" source="#mesh1-geometry-position"/>
+      </vertices>
+      <triangles count="28">
+        <input semantic="VERTEX" source="#mesh1-geometry-vertex" offset="0"/>
+        <input semantic="NORMAL" source="#mesh1-geometry-normal" offset="1"/>
+        <input semantic="COLOR" source="#mesh1-geometry-color" offset="2"/>
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 4 4 4 0 0 0 3 3 3 1 1 1 2 2 2 1 1 1 4 4 4 6 6 6 14 14 14 8 8 8 11 11 11 14 14 14 5 5 5 9 9 9 7 7 7 13 13 13 10 10 10 13 13 13 7 7 7 10 10 10 12 12 12 13 13 13 9 9 9 13 13 13 12 12 12 11 11 11 8 8 8 14 14 14 6 6 6 5 5 5 14 14 14 21 21 21 16 16 16 23 23 23 22 22 22 23 23 23 16 16 16 22 22 22 17 17 17 23 23 23 20 20 20 19 19 19 15 15 15 18 18 18 15 15 15 19 19 19 21 21 21 23 23 23 17 17 17 18 18 18 19 19 19 24 24 24 20 20 20 24 24 24 19 19 19 33 33 33 28 28 28 34 34 34 27 27 27 29 29 29 25 25 25 30 30 30 34 34 34 28 28 28 32 32 32 25 25 25 29 29 29 32 32 32 29 29 29 26 26 26 33 33 33 34 34 34 31 31 31 27 27 27 26 26 26 29 29 29 30 30 30 31 31 31 34 34 34 </p>
+      </triangles>
+    </mesh>
+  </geometry>
+</library_geometries>
+<library_visual_scenes>
+  <visual_scene id="MeshMixerScene" name="MeshMixerScene">
+    <node id="Model" name="Model">
+      <node id="mesh1" name="mesh1">
+        <instance_geometry url="#mesh1-geometry">
+        </instance_geometry>
+      </node>
+    </node>
+  </visual_scene>
+</library_visual_scenes>
+<scene>
+  <instance_visual_scene url="#MeshMixerScene"/>
+</scene>
+</COLLADA>

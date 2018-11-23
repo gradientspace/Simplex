@@ -1,0 +1,4 @@
+UnityVC.unitypackage 
+  - vertex color shaders from here: https://forum.unity3d.com/threads/standard-shader-with-vertex-colors.316529/#post-2157260
+  
+  
